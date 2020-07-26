@@ -5,7 +5,6 @@ Access script
 """
 
 from access_spotify import run_all
-from spotify_credentials import CLIENT_ID, CLIENT_SECRET
 
 import argparse
 
@@ -15,9 +14,21 @@ parser.add_argument(
     default='The Beatles',
     help='Artist to download all album art and info for'
 )
+parser.add_argument(
+    '--client_id', '-id',
+    required=True,
+    help='Client ID for API'
+)
+parser.add_argument(
+    '--client_secret', '-s',
+    required=True,
+    help='Client Secret for API'
+)
 
 my_namespace = parser.parse_args()
 artist_name = my_namespace.artist
+CLIENT_ID = my_namespace.client_id
+CLIENT_SECRET = my_namespace.client_secret
 
 
 if __name__ == "__main__":
