@@ -13,9 +13,11 @@ pandas and analyzed, visualized etc. This will be made much more easy to utilize
 
 It is recommended that the user work in their own virtual environment. 
 
-Current usage:
+Current CLI usage:
 
 git clone https://github.com/panchambanerjee/access_spotify.git
+
+cd access_spotify/
 
 pip install -r requirements.txt
 
