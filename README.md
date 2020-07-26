@@ -33,4 +33,4 @@ Get your own Client_ID and Client_Secret from https://developer.spotify.com/dash
 * access_script.py --artist_name 'Bob Dylan' --client_id 'your-client-id' --client_secret 'your-client-secret'
 
 This saves all the album art (high resolution) and album track information (audio features and audio analysis) 
-into pickled dataframes in the data/ folder. 
+into pickled data-frames in the data/ folder. 
