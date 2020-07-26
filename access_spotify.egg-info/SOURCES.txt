@@ -1,0 +1,14 @@
+README.md
+setup.py
+./bin/access_script.py
+access_spotify/__init__.py
+access_spotify/get_album_details.py
+access_spotify/get_all_album_art.py
+access_spotify/get_all_album_data.py
+access_spotify/get_spotify_access.py
+access_spotify/run_all.py
+access_spotify/spotify_credentials.py
+access_spotify.egg-info/PKG-INFO
+access_spotify.egg-info/SOURCES.txt
+access_spotify.egg-info/dependency_links.txt
+access_spotify.egg-info/top_level.txt
