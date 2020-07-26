@@ -10,7 +10,7 @@ import argparse
 
 parser = argparse.ArgumentParser(description='Get artist name for API access')
 parser.add_argument(
-    '--artist', '-a',
+    '--artist_name', '-a',
     default='The Beatles',
     help='Artist to download all album art and info for'
 )
@@ -26,7 +26,7 @@ parser.add_argument(
 )
 
 my_namespace = parser.parse_args()
-artist_name = my_namespace.artist
+artist_name = my_namespace.artist_name
 CLIENT_ID = my_namespace.client_id
 CLIENT_SECRET = my_namespace.client_secret
 
