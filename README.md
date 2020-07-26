@@ -17,20 +17,20 @@ Get your own Client_ID and Client_Secret from https://developer.spotify.com/dash
 ## Current CLI usage:
 
 ### To clone the repository onto your local machine: 
-git clone https://github.com/panchambanerjee/access_spotify.git
+* git clone https://github.com/panchambanerjee/access_spotify.git
 
 ### Install the dependencies:
 * cd access_spotify/
 * pip install -r requirements.txt
 
 ### Install the access-spotify package in developer mode:
-pip install -e ./
+* pip install -e ./
 
 ### See the help menu:
-access_script.py --help
+* access_script.py --help
 
 ### Query the Spotify API:
-access_script.py --artist_name 'Bob Dylan' --client_id 'your-client-id' --client_secret 'your-client-secret'
+* access_script.py --artist_name 'Bob Dylan' --client_id 'your-client-id' --client_secret 'your-client-secret'
 
 This saves all the album art (high resolution) and album track information (audio features and audio analysis) 
 into pickled dataframes in the data/ folder. 
