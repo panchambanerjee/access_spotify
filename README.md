@@ -34,3 +34,6 @@ Get your own Client_ID and Client_Secret from https://developer.spotify.com/dash
 
 This saves all the album art (high resolution) and album track information (audio features and audio analysis) 
 into pickled data-frames in the data/ folder. 
+
+### This project would not have been possible without Spotipy: https://spotipy.readthedocs.io/en/2.13.0/
+-- Go buy them a coffee and give their github repo a star! 
