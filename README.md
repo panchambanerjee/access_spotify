@@ -20,8 +20,8 @@ Get your own Client_ID and Client_Secret from https://developer.spotify.com/dash
 git clone https://github.com/panchambanerjee/access_spotify.git
 
 ### Install the dependencies:
-cd access_spotify/
-pip install -r requirements.txt
+* cd access_spotify/
+* pip install -r requirements.txt
 
 ### Install the access-spotify package in developer mode:
 pip install -e ./
