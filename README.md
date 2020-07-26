@@ -30,7 +30,7 @@ pip install -e ./
 access_script.py --help
 
 ### Query the Spotify API:
-access_script.py --artist_name 'Bob Dylan' '--client_id 'your-client-id' --client_secret 'your-client-secret'
+access_script.py --artist_name 'Bob Dylan' --client_id 'your-client-id' --client_secret 'your-client-secret'
 
 This saves all the album art (high resolution) and album track information (audio features and audio analysis) 
 into pickled dataframes in the data/ folder. 
