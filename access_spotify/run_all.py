@@ -6,10 +6,10 @@ The main script that runs the code, gets the Spotify API access, downloads the a
 
 import os
 
-from .get_spotify_access import get_spotify_credentials
-from .get_album_details import get_album_details
-from .get_album_art import get_album_art
-from .get_album_data import get_album_audio_analysis, get_album_audio_features
+from get_spotify_access import get_spotify_credentials
+from get_album_details import get_album_details
+from get_album_art import get_album_art
+from get_album_data import get_album_audio_analysis, get_album_audio_features
 
 from tqdm import tqdm
 
