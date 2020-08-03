@@ -12,7 +12,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')
 
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
-from spotify_credentials import CLIENT_SECRET, CLIENT_ID
+from .spotify_credentials import CLIENT_SECRET, CLIENT_ID
 
 
 def get_spotify_credentials(client_id, client_secret):
