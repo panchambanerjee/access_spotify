@@ -3,6 +3,11 @@ This script gets the details for all of the specified artist's albums
 
 """
 
+import os.path
+import sys
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 
 def get_album_details(sp, artist_name):
     """Gets details for all of the albums for the specified artist

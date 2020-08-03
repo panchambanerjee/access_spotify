@@ -2,6 +2,11 @@
 This script downloads all the album art (high resolution) for an artist from Spotify
 """
 
+import os.path
+import sys
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 import urllib.request
 from PIL import Image
 

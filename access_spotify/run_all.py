@@ -5,6 +5,11 @@ The main script that runs the code, gets the Spotify API access, downloads the a
 """
 
 import os
+import os.path
+import sys
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 
 from .get_spotify_access import get_spotify_credentials
 from .get_album_details import get_album_details

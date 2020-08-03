@@ -6,6 +6,11 @@ This script uses the user's Client ID and Client Secret to get access to the Spo
 
 # API Credentials
 
+import os.path
+import sys
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 

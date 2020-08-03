@@ -4,8 +4,12 @@
 Access script
 """
 
-from access_spotify import run_all
+import os.path
+import sys
 
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+from access_spotify import run_all
 import argparse
 
 parser = argparse.ArgumentParser(description='Get artist name for API access')
