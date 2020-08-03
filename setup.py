@@ -4,7 +4,7 @@ import setuptools
 from setuptools import setup
 
 setup(name='access-spotify',
-      version='1.7',
+      version='1.8',
       author='pancham_banerjee',
       packages=setuptools.find_packages(),
       scripts=['./bin/access_script.py'],
