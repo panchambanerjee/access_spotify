@@ -4,6 +4,9 @@
 This script uses the user's Client ID and Client Secret to get access to the Spotify ID
 """
 
+import os
+import sys
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # API Credentials
 
