@@ -2,7 +2,6 @@
 This script downloads all the album art (high resolution) for an artist from Spotify
 """
 
-from tqdm import tqdm
 import urllib.request
 from PIL import Image
 
