@@ -9,6 +9,7 @@ This script uses the user's Client ID and Client Secret to get access to the Spo
 
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
+from spotify_credentials import CLIENT_SECRET, CLIENT_ID
 
 
 def get_spotify_credentials(client_id, client_secret):
@@ -33,3 +34,6 @@ def get_spotify_credentials(client_id, client_secret):
 
     return sp
 
+
+if __name__ == "__main__":
+    sp = get_spotify_credentials(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
