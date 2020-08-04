@@ -20,7 +20,8 @@ def get_album_art(album_name, album_img_url_dict, album_cover_path):
     :type album_img_url_dict: dict
     :param album_cover_path: Path to save album images to
     :type album_cover_path: str
-    :returns: None
+    :returns: Album cover
+    :rtype: image file
 
     """
 
@@ -31,4 +32,6 @@ def get_album_art(album_name, album_img_url_dict, album_cover_path):
     image = Image.open(urllib.request.urlopen(url))
 
     image.save(f"{album_cover_path}/{album_name}_art.png")
+
+    return image
 
