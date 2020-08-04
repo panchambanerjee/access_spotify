@@ -27,7 +27,7 @@ refer to https://developer.spotify.com/documentation/web-api/reference/tracks/
 ### See the help menu
 * access_script.py --help
 
-### Query the Spotify API via CLI:
+### Query the Spotify API via CLI
 * access_script.py --artist_name 'Led Zeppelin' --client_id 'your-client-id' --client_secret 'your-client-secret'
 
 This saves all the album art (high resolution) and album track information (audio features and audio analysis) 
@@ -47,5 +47,5 @@ Please let me know if you find any bugs or if you have any specific ideas for ex
 * Cool visualizations perhaps?
 * Predictive Modeling? How sad will the next Radiohead album be? 
 
-### This project would not have been possible without Spotipy: https://spotipy.readthedocs.io/en/2.13.0/
+### This project would not have been possible without Spotipy --> https://spotipy.readthedocs.io/en/2.13.0/
 -- Go buy them a coffee and give their github repo a star! 
