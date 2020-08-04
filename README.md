@@ -40,7 +40,7 @@ into pickled data-frames in the data/ folder.
 * This is still very new, and I will continue to update the Documentation, functionality and add unit tests. 
 Please let me know if you find any bugs or if you have any specific ideas for extending the functionality. 
 
-## To-Do
+### To-Do
 * Documentation
 * Unit tests
 * Improve the argparse functionality
