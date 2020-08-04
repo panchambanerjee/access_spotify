@@ -21,14 +21,14 @@ refer to https://developer.spotify.com/documentation/web-api/reference/tracks/
 
 ## Installation and Usage
 
-### Install the access-spotify package:
+### Install the access-spotify package
 * pip install access-spotify
 
-### See the help menu:
+### See the help menu
 * access_script.py --help
 
 ### Query the Spotify API via CLI:
-* access_script.py --artist_name 'Bob Dylan' --client_id 'your-client-id' --client_secret 'your-client-secret'
+* access_script.py --artist_name 'Led Zeppelin' --client_id 'your-client-id' --client_secret 'your-client-secret'
 
 This saves all the album art (high resolution) and album track information (audio features and audio analysis) 
 into pickled data-frames in the data/ folder. 
@@ -36,7 +36,7 @@ into pickled data-frames in the data/ folder.
 ### Getting data for individual albums from the Spotify API
 * See the example notebook on Github
 
-### Also::: 
+### Also
 * This is still very new, and I will continue to update the Documentation, functionality and add unit tests. 
 Please let me know if you find any bugs or if you have any specific ideas for extending the functionality. 
 
