@@ -30,6 +30,7 @@ def get_album_details(sp, artist_name):
 
     # Pull all of the artist's albums
     sp_albums = sp.artist_albums(artist_uri, album_type="album")
+    # CHECK THAT ALL THE ALBUMS ARE BEING DOWNLOADED -- MIGHT BE A BUG
     # Store artist's albums' names' and uris in separate lists
     album_names = []
     album_uris = []
